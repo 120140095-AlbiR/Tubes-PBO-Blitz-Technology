@@ -1,60 +1,65 @@
 import pygame
 import random
 
-# Inisialisasi Pygame
+
 pygame.init()
 
-# Ukuran layar
+
 screen_width = 400
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 
-# Warna
+
 white = (255, 255, 255)
 black = (0, 0, 0)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
-# Judul dan ikon
-pygame.display.set_caption('Flappy Bird')
+
+pygame.display.set_caption('Blitz')
 icon = pygame.image.load('flappy.png') 
 pygame.display.set_icon(icon)
 
-# Gambar burung
-bird = pygame.image.load('flappy.png')  
-bird = pygame.transform.scale(bird, (50, 50))
 
-# Posisi burung
+bird = pygame.image.load('flappy.png')  
+bird = pygame.transform.scale(bird, (60, 50))
+
+zeus = pygame.image.load('zeus.png') 
+zeus = pygame.transform.scale(zeus, (70, 70))
+
+
 bird_x = 50
 bird_y = 300
 bird_y_change = 0
 
-# Gambar pipa
+
 pipe_width = 70
 pipe_height = random.randint(150, 450)
 pipe_color = green
 pipe_x_change = -4
 pipe_x = screen_width
 
-# Kecepatan gravitasi dan loncatan burung
+
 gravity = 0.5
 jump = -10
 
-# Skor
+
 score = 0
 font = pygame.font.Font(None, 36)
 
-# Fungsi untuk menampilkan skor
+zeus_appeared = False
+zeus_x = screen_width + 100
+zeus_y = 50
+
 def show_score():
     text = font.render("Score: " + str(score), True, black)
     screen.blit(text, [10, 10])
 
-# Fungsi untuk menggambar pipa
 def draw_pipe(pipe_x, pipe_height):
     pygame.draw.rect(screen, pipe_color, [pipe_x, 0, pipe_width, pipe_height])
     pygame.draw.rect(screen, pipe_color, [pipe_x, pipe_height + 200, pipe_width, screen_height - pipe_height - 200])
 
-# Fungsi untuk layar awal
+
 def show_start_screen():
     screen.fill(white)
     title_font = pygame.font.Font(None, 74)
@@ -67,7 +72,7 @@ def show_start_screen():
 
     pygame.display.update()
 
-# Fungsi utama permainan
+
 def main_game():
     global bird_y, bird_y_change, pipe_x, pipe_height, score
     bird_y = 300
@@ -75,6 +80,7 @@ def main_game():
     pipe_x = screen_width
     pipe_height = random.randint(150, 450)
     score = 0
+    zeus_appeared = False
     running = True
 
     while running:
@@ -116,7 +122,7 @@ def main_game():
         pygame.display.update()
         pygame.time.Clock().tick(30)
 
-# Main loop
+
 show_start_screen()
 waiting = True
 while waiting:
