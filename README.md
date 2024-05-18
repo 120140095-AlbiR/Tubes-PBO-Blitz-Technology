@@ -17,11 +17,11 @@ green = (0, 255, 0)
 
 # Judul dan ikon
 pygame.display.set_caption('Flappy Bird')
-icon = pygame.image.load('flappy.png')  # Ganti dengan path ke ikon Anda
+icon = pygame.image.load('flappy.png') 
 pygame.display.set_icon(icon)
 
 # Gambar burung
-bird = pygame.image.load('flappy.png')  # Ganti dengan path ke gambar burung Anda
+bird = pygame.image.load('flappy.png')  
 bird = pygame.transform.scale(bird, (50, 50))
 
 # Posisi burung
