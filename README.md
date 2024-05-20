@@ -29,4 +29,4 @@ Game flappy bird adalah game yang membuat saya tertarik karena gamenya simple ta
 | Ramadhan Naraya Farastama| 121140134   | PPT                              |
 | Hamdan Hadad Al-Habsi    | 122140232   |                                  |
 | Yudha Kurnia Pratama     | 120140241   |                                  |
-| Albi R.Suseno            | 120140095   |Membuat link github               |
+| Albi R.Suseno            | 120140095   |                                  |
