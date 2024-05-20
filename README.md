@@ -89,7 +89,7 @@ def show_start_screen():
 
 # Fungsi utama permainan
 def main_game():
-    global bird_y, bird_y_change, pipe_x, pipe_height, score, zeus_appeared, bullets
+    global bird_y, bird_y_change, pipe_x, pipe_height, score, zeus_appeared, bullets, zeus_active
     bird_y = 300
     bird_y_change = 0
     pipe_x = screen_width
@@ -99,6 +99,7 @@ def main_game():
     bullets = []
     obstacles = []
     zeus_y = -70
+    zeus_active = False
     running = True
 
     while running:
@@ -134,14 +135,15 @@ def main_game():
         screen.blit(bird, (bird_x, bird_y))
 
         # Tampilkan Zeus jika skor mencapai 5
-        if score >= 5 and not zeus_appeared:
+        if score >= 5 and not zeus_appeared and not zeus_active:
             zeus_appeared = True
+            zeus_active = True  # Tandai bahwa Zeus sudah aktif
 
         if zeus_appeared:
             zeus_y += zeus_y_change
             screen.blit(zeus, (zeus_x, zeus_y))
             if zeus_y > screen_height:
-                zeus_y = -70
+                zeus_appeared = False
 
         # Update dan gambar peluru
         for bullet in bullets:
