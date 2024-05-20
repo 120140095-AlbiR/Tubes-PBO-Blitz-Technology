@@ -20,19 +20,22 @@ pygame.display.set_caption('Flappy Bird')
 icon = pygame.image.load('flappy.png')  
 pygame.display.set_icon(icon)
 
-# Gambar burung
-bird = pygame.image.load('flappy.png') 
-bird = pygame.transform.scale(bird, (60, 50))
+# Gambar background
+background_image = pygame.image.load('background.png')
+
+# Gambar Pesawat
+bird_image = pygame.image.load('flappy.png')
+bird_image = pygame.transform.scale(bird_image, (60, 50))
 
 # Gambar Zeus
 zeus = pygame.image.load('zeus.png')  
 zeus = pygame.transform.scale(zeus, (70, 70))
 
-#gambar kayu/batu
+# Gambar kayu/batu
 obstacle_image = pygame.image.load('obstacle.png')  
 obstacle_image = pygame.transform.scale(obstacle_image, (50, 50))
 
-# Posisi burung
+# Posisi Pesawat
 bird_x = 50
 bird_y = 300
 bird_y_change = 0
@@ -44,7 +47,7 @@ pipe_color = green
 pipe_x_change = -4
 pipe_x = screen_width
 
-# Kecepatan gravitasi dan loncatan burung
+# Kecepatan gravitasi dan loncatan Pesawat
 gravity = 0.5
 jump = -5
 
@@ -89,7 +92,7 @@ def show_start_screen():
 
 # Fungsi utama permainan
 def main_game():
-    global bird_y, bird_y_change, pipe_x, pipe_height, score, zeus_appeared, bullets, zeus_active
+    global bird_y, bird_y_change, pipe_x, pipe_height, score, zeus_appeared, bullets, zeus_active, zeus_y
     bird_y = 300
     bird_y_change = 0
     pipe_x = screen_width
@@ -104,7 +107,7 @@ def main_game():
 
     while running:
         # Latar belakang
-        screen.fill(white)
+        screen.blit(background_image, (0, 0))
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -132,7 +135,13 @@ def main_game():
 
         draw_pipe(pipe_x, pipe_height)
 
-        screen.blit(bird, (bird_x, bird_y))
+        # Rotasi gambar Pesawat berdasarkan perubahan y
+        if bird_y_change < 0:
+            bird_rotated = pygame.transform.rotate(bird_image, 30)  # Menghadap ke atas
+        else:
+            bird_rotated = pygame.transform.rotate(bird_image, -30)  # Menghadap ke bawah
+
+        screen.blit(bird_rotated, (bird_x, bird_y))
 
         # Tampilkan Zeus jika skor mencapai 5
         if score >= 5 and not zeus_appeared and not zeus_active:
