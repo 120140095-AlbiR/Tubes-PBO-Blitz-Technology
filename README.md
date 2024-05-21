@@ -30,7 +30,7 @@ Game flappy bird adalah game yang membuat saya tertarik karena gamenya simple ta
 |--------------------------|-------------|----------------------------------|
 | Anjes Bermana            | 122140190   | Programmer, Designer, Researcher |
 | Dian Maulana             | 122140231   | Programmer, Designer, Researcher |
-| Ramadhan Naraya Farastama| 121140134   | PPT, Resarcher                    |
+| Ramadhan Naraya Farastama| 121140134   | PPT, Resarcher                   |
 | Hamdan Hadad Al-Habsi    | 122140232   |                                  |
-| Yudha Kurnia Pratama     | 120140241   |        Designer, Researcher                          |
+| Yudha Kurnia Pratama     | 120140241   |                                  |
 | Albi R.Suseno            | 120140095   |                                  |
