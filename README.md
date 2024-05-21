@@ -13,6 +13,9 @@
 Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan bawah, bola api  yang muncul, melawan boss dengan Peluru yang akan diberikan sebelum melawan bos, para player bisa mengatur pesawat dengan menekan Tombol space mereka dan menembakan peluru yang di berikan dengan menekan Tombol V 
 
 # Uml class Diagram
+
+<img width="392" alt="Screenshot 2024-05-21 020819" src="https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/168833183/82d23fb2-1dd4-4dd9-b5c3-2c6bb2dc6f4a">
+
 ![Blank document](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/168833183/b134be8f-78ff-42c6-9960-2ba4e06f1042)
 
 
