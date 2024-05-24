@@ -9,7 +9,7 @@
 - [Pygame](https://www.pygame.org/)
 - [figma](https://www.figma.com/)
 
-# how to play
+# How to play
 Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan bawah, bola api  yang muncul, melawan boss dengan Peluru yang akan diberikan sebelum melawan bos, para player bisa mengatur pesawat dengan menekan Tombol space mereka dan menembakan peluru yang di berikan dengan menekan Tombol V 
 
 # Uml class Diagram
