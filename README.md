@@ -14,8 +14,8 @@ Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan b
 
 -** Player dapat menekan tombol keyboard (1) untuk memulai game (2) untuk keluar game (3) untuk ke layar bagaimana cara memainkannya**
     ![Screenshot 2024-05-24 230937](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/ac5725d1-cb55-4e4a-bdb8-138b6d765a0d)
-**
-- Halaman How To Play menjelaskan mekanisme permainan ini, untuk keluar anda dapat menekan tombol keyboard (q)**
+    
+**- Halaman How To Play menjelaskan mekanisme permainan ini, untuk keluar anda dapat menekan tombol keyboard (q)**
     ![Screenshot 2024-05-25 004843](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/65c008b4-21b4-41e4-bb32-a6fbe3471359)
 
 **- Halaman Permainan, player dapat menekan spacebar untuk loncat dan ketika boss datang, player dapat menekan tombol v untuk menembak**
