@@ -35,7 +35,7 @@ Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan b
 # Referensi Game dan Assets
 Game flappy bird adalah game yang membuat saya tertarik karena gamenya simple tapi sulit untuk di mainkan dan membuat kecanduan untuk menyelesaikan game ini, maka dari itu kami membuat game flappy bird dengan tema peperangan dengan salah satu makhluk mitologi 
 
-- [Game[(https://youtu.be/GiUGVOqqCKg?feature=shared)
+- https://youtu.be/GiUGVOqqCKg?feature=shared)
 - https://steamcommunity.com/sharedfiles/filedetails/?id=965451084
 - https://www.youtube.com/watch?v=GMBqjxcKogA&t=159s&pp=ugMICgJpZBABGAHKBRxtZW1idWF0IGhhbGFtYW4gdXRhbWEgcHlnYW1l
 - https://www.youtube.com/watch?v=GiUGVOqqCKg&list=PLjcN1EyupaQkz5Olxzwvo1OzDNaNLGWoJ
