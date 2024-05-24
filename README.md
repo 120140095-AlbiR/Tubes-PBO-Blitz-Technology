@@ -1,6 +1,3 @@
-![Screenshot 2024-05-25 005842](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/3a7794d0-55c6-4cdd-83fb-48d44ef6901f)![Screenshot 2024-05-25 004843](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/158f3873-2012-4017-87bd-2dc433960baf)# Tubes_Pbo_Blitz
-![Screenshot 2024-05-24 230937](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/5f0c8edc-8afc-4a8b-9867-9506b6223fd9)
-
 # Flappy clash
 "Flappy Clash" merupakan game arcade semi FPS yang terinspirasi dari game Flappy Bird dan game Alien Sky di beberapa aspek dimana player mengendalikan karakter untuk menghindari semua rintangan yang dilalui sang karakter. Game ini bercerita tentang keadaan dunia yang kacau dikarenakan terbebasnya berbagai macam makhluk rekayasa genetika dari sebuah laboratorium yang dikelola oleh United Nation. Player sendiri berperan sebagai seorang pilot pesawat tempur yang ditugaskan untuk mengeliminasi makhluk rekayasa genetika yang terlepas itu supaya tidak membahayakan rakyat sipil. Dengan konsep tersebut game ini divariasikan lagi dengan berbagai macam rintangan yang berbeda
 
