@@ -1,4 +1,6 @@
-# Flappy clash
+# ![Screenshot 2024-05-25 012207](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/bf4dac40-dc3d-43a6-b2e9-69862756f04b)
+
+Flappy clash
 "Flappy Clash" merupakan game arcade semi FPS yang terinspirasi dari game Flappy Bird dan game Alien Sky di beberapa aspek dimana player mengendalikan karakter untuk menghindari semua rintangan yang dilalui sang karakter. Game ini bercerita tentang keadaan dunia yang kacau dikarenakan terbebasnya berbagai macam makhluk rekayasa genetika dari sebuah laboratorium yang dikelola oleh United Nation. Player sendiri berperan sebagai seorang pilot pesawat tempur yang ditugaskan untuk mengeliminasi makhluk rekayasa genetika yang terlepas itu supaya tidak membahayakan rakyat sipil. Dengan konsep tersebut game ini divariasikan lagi dengan berbagai macam rintangan yang berbeda
 
 # Library, Frameworks & Tools Used
@@ -6,6 +8,7 @@
 - [Pygame](https://www.pygame.org/)
 - [figma](https://www.figma.com/)
 - [aseprite] (https://www.aseprite.org/)
+- https://www.textstudio.com/logo/green-pixelated-3d-text-348#google_vignette
 
 # How to play
 Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan bawah, bola api  yang muncul, melawan boss dengan Peluru yang akan diberikan sebelum melawan bos, para player bisa mengatur pesawat dengan menekan Tombol space mereka dan menembakan peluru yang di berikan dengan menekan Tombol V. Seiring anda mengalahkan boss maka kecepatan pipa dan hp dari boss bertambah.
@@ -22,17 +25,19 @@ Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan b
 - Halaman Game Over, player dapat menekan tombol keyboard (r) untuk bermain kembali dan (q) untuk exit
 ![Screenshot 2024-05-25 005122](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/1b8b4365-ff7b-4da7-9b07-7239e8fe1a99)
 
-# Uml class Diagram
+# UML CLass Diagram
+![CLASS DIAGRAM(1)](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/161603201/0613a26f-986d-4f3f-8d33-b63c147e1411)
 
-<img width="392" alt="Screenshot 2024-05-21 020819" src="https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/168833183/82d23fb2-1dd4-4dd9-b5c3-2c6bb2dc6f4a">
-
-![Blank document](https://github.com/120140095-AlbiR/Tubes-PBO-Blitz-Technology/assets/168833183/b134be8f-78ff-42c6-9960-2ba4e06f1042)
-
-
-# Referensi 
+# Referensi Game dan Assets
 Game flappy bird adalah game yang membuat saya tertarik karena gamenya simple tapi sulit untuk di mainkan dan membuat kecanduan untuk menyelesaikan game ini, maka dari itu kami membuat game flappy bird dengan tema peperangan dengan salah satu makhluk mitologi 
 
 - [Game[(https://youtu.be/GiUGVOqqCKg?feature=shared)
+- https://steamcommunity.com/sharedfiles/filedetails/?id=965451084
+- https://www.youtube.com/watch?v=GMBqjxcKogA&t=159s&pp=ugMICgJpZBABGAHKBRxtZW1idWF0IGhhbGFtYW4gdXRhbWEgcHlnYW1l
+- https://www.youtube.com/watch?v=GiUGVOqqCKg&list=PLjcN1EyupaQkz5Olxzwvo1OzDNaNLGWoJ
+- https://www.pngwing.com/en/search?q=PLANE
+- https://www.myinstants.com/en/instant/zeus-death-87595/
+- https://pixabay.com/sound-effects/search/ouch%20/
 
 ## Contributors
 
