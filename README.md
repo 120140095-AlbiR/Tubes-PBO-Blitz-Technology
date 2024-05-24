@@ -6,8 +6,8 @@
 - [Python 3.11](https://www.python.org/)
 - [Pygame](https://www.pygame.org/)
 - [Figma](https://www.figma.com/)
-- Aseprite (https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.aseprite.org/&ved=2ahUKEwjuh52z9aaGAxWk8DgGHevjAuwQFnoECBQQAQ&usg=AOvVaw3HwaRU_01wNH3Yj9ihY2lm)
-- Text Studio (https://www.textstudio.com/logo/green-pixelated-3d-text-348#google_vignette)
+- [Aseprite](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.aseprite.org/&ved=2ahUKEwjuh52z9aaGAxWk8DgGHevjAuwQFnoECBQQAQ&usg=AOvVaw3HwaRU_01wNH3Yj9ihY2lm)
+- [Text Studio](https://www.textstudio.com/logo/green-pixelated-3d-text-348#google_vignette)
 
 # How to play
 Para player melewati rintangan yang sudah di persiapkan seperti pilar atas dan bawah, bola api  yang muncul, melawan boss dengan Peluru yang akan diberikan sebelum melawan bos, para player bisa mengatur pesawat dengan menekan Tombol space mereka dan menembakan peluru yang di berikan dengan menekan Tombol V. Seiring anda mengalahkan boss maka kecepatan pipa dan hp dari boss bertambah.
