@@ -7,7 +7,7 @@ Flappy clash
 - [Python 3.11](https://www.python.org/)
 - [Pygame](https://www.pygame.org/)
 - [figma](https://www.figma.com/)
-- [aseprite] (https://www.aseprite.org/)
+- https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.aseprite.org/&ved=2ahUKEwjuh52z9aaGAxWk8DgGHevjAuwQFnoECBQQAQ&usg=AOvVaw3HwaRU_01wNH3Yj9ihY2lm
 - https://www.textstudio.com/logo/green-pixelated-3d-text-348#google_vignette
 
 # How to play
